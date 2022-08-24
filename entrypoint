@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ "$1" = "serve" ]; then
+    echo "starting...."
+    exec npm start
+else
+    exec "$@"
+fi

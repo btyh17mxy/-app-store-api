@@ -1,6 +1,6 @@
-# google-play-api
+# app-store-api (work in progress)
 
-Turns [google-play-scraper](https://github.com/facundoolano/google-play-scraper/) into a RESTful API.
+Turns [app-store-scraper](https://github.com/facundoolano/app-store-scraper) into a RESTful API.
 
 To run locally:
 

@@ -6,10 +6,10 @@ const router = require('./lib');
 const app = Express();
 const port = process.env.PORT || 3000;
 
-app.use('/apple-store-api/api/', router);
+app.use('/app-store-api/api/', router);
 
 app.get('/', function(req, res){
-  res.redirect('/apple-store-api/api');
+  res.redirect('/app-store-api/api');
 });
 
 app.listen(port, function () {
